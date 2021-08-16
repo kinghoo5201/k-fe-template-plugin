@@ -4,8 +4,8 @@
 
 // 插件入口
 
-import { InitAction } from "./InitAction";
+import { Action } from "./Action";
 
 export default function init(args: string[], options: Record<string, any>) {
-  new InitAction(args, options);
+  new Action(args, options);
 }
