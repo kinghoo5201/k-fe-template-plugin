@@ -9,7 +9,7 @@ import { WORKSPACE, NPM_COMMAND, getInfo, NPM_REGISTRY } from "k-cli-utils";
 
 const { HOMEPATH } = consts;
 
-export class InitAction {
+export class Action {
   args: string[];
   options: Record<string, any>;
 
